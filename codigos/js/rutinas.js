@@ -1,0 +1,3 @@
+function Ir(){
+    alert("Hola****");
+}
