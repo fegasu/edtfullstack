@@ -1,0 +1,230 @@
+#sena{
+	padding: 25px 25px 25px 25px;
+	width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    font-family: Roboto,sans-serif;
+	text-align: center;
+    font-size: 0.8em;
+    color:black;
+}
+#sena .bt, button{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	
+   box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.29); 
+  
+	  padding-left:55px;
+	  font-size: 0.7em;
+	  font-weight: bold;
+	  text-align:right;
+	  text-transform: uppercase;
+	 /* transition: all 1s linear;*/
+	color:black;
+	text-shadow: red 0.2em 0.2em 0.2em;
+	border:1px solid black;
+	text-shadow: 1px 1px white, -1px -1px #333;
+	
+	
+  background: url("https://up9bp0pfq2ue4kizq9zseg.on.drv.tw/ovas/css/bt1.jpg") no-repeat left center; 
+  height: 1.7em;
+  border: 1px solid #000000; 
+  width:100%;
+  cursor:pointer;
+  }
+
+#sena select{
+	border-radius: 5px;
+	border: 1px solid transparent;
+	  padding: 5px 25px 10px 10px;
+	  padding-left:55px;
+	  font-size: 0.7em;
+	  font-weight: bold;
+	  text-align:right;
+	  text-transform: uppercase;
+	 /* transition: all 1s linear; */
+	color:black;
+	border:1px solid #000000;
+	width:100%;
+  background: url("https://up9bp0pfq2ue4kizq9zseg.on.drv.tw/ovas/css/bt1.jpg") no-repeat left center; 
+  background-color: white;
+  height: 1.7em;
+  
+  box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.29); 
+  cursor:pointer;
+  text-align:justify;
+  }
+  #sena div{
+	background-color: white;
+	width:100%;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
+	margin: auto;
+	padding: 15px 15px 15px 15px;
+	border:1px solid #000000;
+	text-align: center;
+    font-size: 1.6em;
+    background-color: ##E0E0E0;
+    color: black;
+    max-width:90%;
+    font-family: Roboto,sans-serif;
+  }
+
+  #sena .bt:hover,#sena select:hover,#sena button:hover{
+	-webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.2);
+  height: 1.9em;
+	/*  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+	  padding: 10px 10px 10px 10px;
+	  color: white; 
+
+	font-size: 0.7em;
+	
+	border-color: black;
+	background: url("https://up9bp0pfq2ue4kizq9zseg.on.drv.tw/ovas/css/bt1.jpg") no-repeat right center; 
+	background-color:#8DFF5E;
+	background-color:#FFFF;
+	color:black;
+	font-weight: bold;
+	padding-right:50px;
+  text-align:justify;
+  text-justify: inter-word;
+  width:100%;
+  cursor:url("https://siomi.datasena.com/mano4.png"),url("https://siomi.datasena.com/mano4.cur"),auto;
+  }
+
+  #sena h2 { padding: 15px 15px 15px 15px;
+	font-weight: bold;text-align:left;margin: auto; font-size: 1em; padding: 0.4em; color: #fff; background-color: #944; border: 1px solid black; }
+#sena form input[type=text],form input[type=password],form input[type=number],form input[type=date],form input[type=email]{
+	background-color:white;
+	box-sizing: border-box;
+	width:90%;
+	height:40px;
+	font-size: 22;
+	color:black;
+	width:100%;
+	}
+	#sena form input[type=text]:hover,#sena form input[type=password]:hover,#sena form input[type=number]:hover,#sena form input[type=date]:hover,#sena form input[type=email]:hover{
+	background-color:#f6f498f3;
+	box-sizing: border-box;
+	font-size: 22;
+	color:black;
+	width:100%;
+	}
+	#sena .carta{
+		border-radius: 12px 12px 12px 12px;
+-moz-border-radius: 12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+border: 0px solid #000000;
+
+position:relative;
+width:100%;
+align-items: left;
+
+
+	}
+	
+	#sena .cambio:hover{
+			-webkit-transform: rotateY(180deg);
+			-webkit-transform-style: preserve-3d;
+			transform: rotateY(180deg);
+			transform-style: preserve-3d;}
+#sena .vuelta:hover{
+				border-radius:50%;
+				-webkit-border-radius:50%;
+				box-shadow: 0px 0px 15px 15px #ec731e;
+				-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+				transform: rotate(360deg);
+				-webkit-transform: rotate(360deg);
+				}
+#sena ul{
+	text-align: left;list-style-position:outside;font-weight: bold;
+}
+#sena li{
+	font-size: 1em;
+	font-weight: bold;list-style-position:outside;font-family: Roboto,sans-serif;
+
+  }
+  #sena .IrDer{
+		position: absolute;
+		transition-property: background-color, color, left;
+		transition-duration: 5s;
+		-webkit-transition-property: background-color, color, left;
+		-webkit-transition-duration: 5s;
+		-o-transition-property: background-color, color, left;
+		-o-transition-duration: 5s;
+		background-color: red;
+		left: 0%;
+		color: black;
+	  
+  }
+  #sena .mano:hover{
+cursor: url('https://siomi.datasena.com/mano3.png'), auto;	
+  }
+  #sena img:hover{
+	right:-1000px;
+		-webkit-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+  }
+  #sena .codigo{
+	color: yellow; background-color: black;font-size: 1em;
+	font-weight: bold;
+    
+  }
+#sena .pl{
+	text-align: left;list-style-position:outside;font-weight: bold;
+	}
+#sena .pa{
+		text-align:justify;list-style-position:outside;font-weight: bold;
+		}
+#sena .girar:hover{
+	/* transform: scale(1.04) translateY(-5px);*/
+	transition:all .8s ease-in-out;
+	-webkit-transform: rotate(360deg);transform: rotate(360deg);
+	/* transition: height 2s linear 1s;*/
+				  }
+#sena table.redTable {
+	border: 2px solid #A40808;
+	background-color: #EEE7DB;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+  }
+#sena table th{background-color: #9e081c;color:white;}
+
+				  table#mitabla {border-collapse: collapse;}
+				  td.bajo {background-color: #ff455e;}
+				  td.medio {background-color: #d63e3e;}
+				  td.alto {background-color: #940014;}
+				  
+				  td.a {background-color: #243ff0;}
+				  td.b {background-color: #1726cf;}
+				  td.c {background-color: #100085;}
+				  
+				  td.aaa {background-color: #f8ff94;}
+				  td.bbb {background-color: #fff64f;}
+				  td.ccc {background-color: #ffff00;}
+				  
+				  thead.cabecera tr td {
+					  font-family: monospace;
+					  font-size: 30px;
+					  font-weight: bold;
+					  color: #ffffff;
+					  padding: 15px;}
+				  
+				  tfoot.pie tr td {
+					  font-size: 18px;
+					  font-weight: bold;
+					  font-family: Georgia;
+					  padding: 2px;}
+				  
+				  tbody.cuerpo tr td {
+					  color: #ebebeb;
+					  padding: 10px;}
+				  
+				  td {border-style: solid;
+					  border-color: #cccccc;
+				   border-width: 1px;}
