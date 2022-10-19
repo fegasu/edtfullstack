@@ -1,0 +1,38 @@
+{% load  static %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/Estilo.css'%}" />
+    <script src="{% static 'js/rutinas.js'%}"></script>
+</head>    
+    <html>
+    <body>
+        <center><img src="{% static 'images/BLOG.png'%}"></center>
+        <div id="sena">
+            <div>
+                <h2> USUARIOS</h2><br>
+                <div>
+                <button value="xxx" onclick='Ir()'>Prueba</button>
+                <br>
+                <select><option>Elija Uno</option>
+                    <option>Uno</option>
+
+                </select>
+                </div>
+                <br><br>
+                
+        <table border="1" width=100% class="redTable">
+            <tr>
+            <th>NOMBRE</th>
+            <tH>DIRECCION</tH>
+            <th>EMAIL</th>
+            <th>TELEFONO</th>
+            </tr>
+            {% for x in lista%}
+            <tr><td>{{x.nombre}}</td>
+                <td>{{x.direccion}}</td>
+                <td>{{x.email}}</td>
+                <td>{{x.tfno}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
