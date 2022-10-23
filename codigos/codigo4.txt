@@ -1,0 +1,8 @@
+def muestre_fecha(request):
+    fecha=datetime.datetime.now()
+    nom="Jose Fegasu"
+    doc=open("D:/ProyectosDjango/proyectos/siomi/siomi/plantillas/miplantilla1.html")
+    plt=Template(doc.read())
+    ctx=Context({"nom":nom,"fecha":fecha})
+    documento=plt.render(ctx)
+return HttpResponse(documento)
