@@ -1,0 +1,9 @@
+import datetime
+from django.template import Template,Context
+def muestre_fecha(request):
+    actual_fecha=datetime.datetime.now()
+    doc=open("D:/ProyectosDjango/proyectos/siomi/siomi/plantillas/miplantilla1.html")
+    plt=Template(doc.read())
+    ctx=Context()
+    documento=plt.render(ctx)
+return HttpResponse(documento)
