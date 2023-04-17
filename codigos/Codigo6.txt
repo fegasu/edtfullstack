@@ -1,0 +1,10 @@
+from django.http import HttpResponse
+from ppal.models import Clientes
+from django.template.loader import get_template
+from django.template import Context
+
+def Saludos(request):
+    lista_clientes=Clientes.objects.order_by('-nombre')
+    plt=get_template('miplantilla1.html')
+    documento=plt.render({"lista":lista_clientes})
+    return HttpResponse(documento)
